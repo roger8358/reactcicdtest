@@ -86,7 +86,7 @@ const App = () => {
   return (
     <div className="container">
       <header>
-        <h1>🌍 旅遊天氣小幫手</h1>
+        <h1>旅遊天氣小幫手</h1>
         <p>輸入城市，查看天氣與附近景點</p>
       </header>
 
