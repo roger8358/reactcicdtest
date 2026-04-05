@@ -59,7 +59,7 @@ const App = () => {
       const { lat, lon } = weatherData.coord;
       fetchAttractions(lat, lon);
     } catch (err) {
-      // err 預設是 unknown，需要轉型
+      
       if (err instanceof Error) {
         setError(err.message);
       }
