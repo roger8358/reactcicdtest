@@ -29,7 +29,7 @@ interface Attraction {
   dist: number;
 }
 const App = () => {
-  const [city, setCity] = useState("london");
+  const [city, setCity] = useState("");
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [attractions, setAttractions] = useState<Attraction[]>([]);
   const [loading, setLoading] = useState(false);
