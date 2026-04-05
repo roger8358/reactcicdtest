@@ -93,7 +93,7 @@ const App = () => {
       <form onSubmit={handleSearch} className="search-box">
         <input
           type="text"
-          placeholder="輸入城市 (例如: 台北, Tokyo, London)"
+          placeholder="輸入城市 (例如: 台北,Tokyo,London)"
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
