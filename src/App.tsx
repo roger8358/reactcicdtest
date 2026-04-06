@@ -34,7 +34,7 @@ const App = () => {
   const [attractions, setAttractions] = useState<Attraction[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const API_KEY = "3e9495fc9f6f9f088f0f971c8522d5bc";
+  const API_KEY=import.meta.env.VITE_WEATHER_API_KEY;
 
   const handleSearch = async (e: React.ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
